@@ -1,2 +1,26 @@
 Ctrl + Shift + B => run script in python
 F5 => run script with input function
+exit () => exits python
+
+indentation in python refers to a block of code; not just for readability like
+in other programs
+
+install python
+install atom
+install hydrogen package
+install atom python runlines
+install atom python run (shortcut enabled ctrl + shift + b)
+
+
+
+Then, install the following so that hydrogen can run code just like jupyter for data science
+
+forpython -m pip install ipykernel
+pip install pip==22.0.4
+python -m ipykernel install --user
+# install plot library
+pip install matplotlib
+pip install sklearn
+pip install pydotplus
+for graphviz install from official site, do not initiate pip install graphviz, download 64 bit version
+when prompted, add path to current user.
